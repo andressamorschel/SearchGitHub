@@ -4,4 +4,3 @@
 
 A tela inicial do projeto contém um campo para a pesquisa e outro para selecionar a linguagem, contendo as opções, pt-br, en-US, en-AU e JA.  
 
-<img src="./Imagens/inicio.png"</img>
