@@ -5,22 +5,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./Imagens/git.png" type="image/x-icon">
   <link rel="stylesheet" href="Style/style.css">
   <title>SearchGitHub</title>
 </head>
 
 <body>
   <h1>Search for repositories in GitHub!</h1>
-    
-  Search:<input type="text" placeholder="Search for repositorie" id="pesquisa">
 
-  <select name="" id="selecionarLinguagem">
-    <option value="pt-BR">PT-BR</option>
-    <option value="en-US" selected>EN-US</option>
-    <option value="en-AU">EN-AU</option>
-    <option value="ja">JA</option>
-  </select>
+  <p class="searchText">Search:</p>
+  <div id="campoDePesquisa">
+    <input type="text" placeholder="Search for repositorie" id="pesquisa">
 
+    <select name="" id="selecionarLinguagem">
+      <option value="pt-BR">PT-BR</option>
+      <option value="en-US" selected>EN-US</option>
+      <option value="en-AU">EN-AU</option>
+      <option value="ja">JA</option>
+    </select>
+  </div>
   <ul id="lista"></ul>
 
   <script src="JavaScript/App.js" type="module"></script>
